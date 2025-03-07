@@ -12,7 +12,7 @@ import { GoPlus } from "react-icons/go";
 
 const Menu = () => {
   return (
-    <div className='hidden max-[500px]:block'>
+    <div className='hidden max-[600px]:block'>
         <div className='fixed bottom-0 w-full h-[55px] flex items-center justify-between px-4  bg-gradient-to-b from-transparent to-neutral-900'>
         <div className='text-white text-3xl flex flex-col items-center max-[369px]:text-2xl'>
             <MdHomeFilled/>

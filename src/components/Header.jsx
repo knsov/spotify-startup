@@ -4,7 +4,6 @@ import { BsThreeDots } from "react-icons/bs";
 import { GoChevronLeft } from "react-icons/go";
 import { GoChevronRight } from "react-icons/go";
 import { MdHomeFilled } from "react-icons/md";
-import { IoSearch } from "react-icons/io5";
 import { PiBellRingingFill } from "react-icons/pi";
 import { MdOutlineGroups2 } from "react-icons/md";
 import { RxHamburgerMenu } from "react-icons/rx";

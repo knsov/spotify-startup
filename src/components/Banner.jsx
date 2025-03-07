@@ -9,6 +9,9 @@ const Banner = () => {
         <Banner_header/>
         <Related/>
         <Banner_last/>
+        <Banner_last/>
+        <Banner_last/>
+        <Banner_last/>
     </div>
   )
 }

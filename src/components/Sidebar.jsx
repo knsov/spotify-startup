@@ -14,7 +14,7 @@ import Banner from './Banner';
 const Sidebar = () => {
   return (
     <div className='p-2 flex gap-2'>
-      <div className='h-[100vh] bg-neutral-900 w-[20%] rounded-lg sticky top-0 max-[1023px]:hidden'>
+      <div className='h-[93vh] bg-neutral-900 w-[20%] rounded-lg sticky top-[55px] max-[1023px]:hidden'>
         <div className='flex flex-col px-2 py-2'>
             <div className='flex justify-between'>
                 <div className='flex gap-3 items-center max-[1189px]:gap-2 max-[698px]:hidden'>

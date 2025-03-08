@@ -7,6 +7,7 @@ import { MdHomeFilled } from "react-icons/md";
 import { PiBellRingingFill } from "react-icons/pi";
 import { MdOutlineGroups2 } from "react-icons/md";
 import { RxHamburgerMenu } from "react-icons/rx";
+import Burger from './Burger';
 
 
 
@@ -15,7 +16,8 @@ import { RxHamburgerMenu } from "react-icons/rx";
 
 const Header = () => {
   return (
-    <div className='bg-black'>
+    <>
+    <div className='bg-black sticky top-0'>
       <div className='mx-7'>
         <div className='flex justify-between items-center h-14'>
           <div className='flex text-white items-center text-2xl gap-2 cursor-pointer'>
@@ -44,6 +46,8 @@ const Header = () => {
           </div>
         </div>
     </div>
+    <Burger/>
+    </>
   )
 }
 

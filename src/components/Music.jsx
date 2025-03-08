@@ -48,7 +48,7 @@ const Music = () => {
             </div>
         </div>
       </div>
-          <div className='grid grid-cols-4 gap-90 mt-5 border-b-2 border-neutral-800 py-4'>
+          <div className='grid justify-between grid-cols-4  mt-5 border-b-2 border-neutral-800 py-4'>
             <div>
               <h1 className='text-neutral-400 font-semibold'># Title</h1>
             </div>
@@ -56,7 +56,7 @@ const Music = () => {
               <h1 className='text-neutral-400 font-semibold'>Album</h1>
             </div>
             <div>
-              <h1 className='text-neutral-400 font-semibold'>Date added</h1>
+              <h1 className='text-neutral-400 font-semibold max-[695px]:hidden'>Date added</h1>
             </div>
             <div className='text-neutral-400 text-2xl'>
               <IoMdTimer/>

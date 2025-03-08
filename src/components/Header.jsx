@@ -8,6 +8,7 @@ import { PiBellRingingFill } from "react-icons/pi";
 import { MdOutlineGroups2 } from "react-icons/md";
 import { RxHamburgerMenu } from "react-icons/rx";
 import Burger from './Burger';
+import { NavLink } from 'react-router-dom';
 
 
 
@@ -33,9 +34,11 @@ const Header = () => {
           </div>
           </div>
           <div className='flex items-center gap-3'>
-            <div className='text-2xl text-white hover:text-gray-400 duration-300 cursor-pointer max-[600px]:hidden'>
-            <MdHomeFilled/>
-            </div>
+            <NavLink to={"/"}>
+              <div className='text-2xl text-white hover:text-gray-400 duration-300 cursor-pointer max-[600px]:hidden'>
+              <MdHomeFilled/>
+              </div>
+            </NavLink>
             <input className='rounded-3xl bg-white/20 w-[400px] h-11 placeholder-gray-400 font-semibold px-9 text-[14px] text-gray-300 max-[800px]:w-full cursor-pointer max-[600px]:hidden' type="search" name="" id="" placeholder='What do you want to play?' />
           </div>
           <div className='flex gap-4 items-center'>

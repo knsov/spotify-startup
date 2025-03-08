@@ -5,7 +5,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 import { IoSearch } from "react-icons/io5";
 import { TfiMenuAlt } from "react-icons/tfi";
 import Banner from './Banner';
-import Music from './Music';
+import Playlist from '../pages/Playlist';
 
 
 
@@ -79,7 +79,7 @@ const Sidebar = () => {
       </div>
       <div>
         {/* <Banner/> */}
-        <Music/>
+        <Playlist/>
       </div>
     </div>
   )

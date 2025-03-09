@@ -23,7 +23,7 @@ const Header = () => {
     <>
     <div className='bg-black sticky top-0'>
       <div className='mx-7'>
-        <div className='flex justify-between items-center h-14'>
+        <div className='flex justify-between items-center h-13 mt-1'>
           <div className='flex text-white items-center text-2xl gap-2 cursor-pointer'>
           <div className='text-white text-2xl hidden max-[600px]:block' onClick={handleMenu}>
             <RxHamburgerMenu/>
@@ -35,7 +35,7 @@ const Header = () => {
           </div>
           <div className='flex items-center gap-3'>
             <NavLink to={"/"}>
-              <div className='text-2xl text-white hover:text-gray-400 duration-300 cursor-pointer max-[600px]:hidden'>
+              <div className='text-2xl text-white rounded-4xl px-3 py-3 hover:bg-gray-400/40 duration-300 cursor-pointer max-[600px]:hidden'>
               <MdHomeFilled/>
               </div>
             </NavLink>

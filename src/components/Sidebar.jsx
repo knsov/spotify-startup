@@ -19,11 +19,11 @@ const Sidebar = () => {
       <div className='h-[93vh] bg-neutral-900 w-[20%] rounded-lg sticky top-[55px] max-[1023px]:hidden'>
         <div className='flex flex-col px-2 py-2'>
             <div className='flex justify-between'>
-                <div className='flex gap-3 items-center max-[1189px]:gap-2 max-[698px]:hidden'>
-                    <span className='text-gray-400 text-3xl hover:text-white duration-300 cursor-pointer max-[1189px]:text-2xl'>
+                <div className='flex gap-3 items-center max-[1189px]:gap-2 max-[698px]:hidden group'>
+                    <span className='text-gray-400 text-3xl group-hover:text-white duration-300 cursor-pointer max-[1189px]:text-2xl'>
                     <SlLayers/>
                     </span>
-                    <h1 className='text-gray-400 font-bold cursor-pointer hover:text-white duration-300 max-[1189px]:text-[14px] max-[1022px]:text-[10px]'>Your Library</h1>
+                    <h1 className='text-gray-400 font-bold cursor-pointer group-hover:text-white duration-300 max-[1189px]:text-[14px] max-[1022px]:text-[10px]'>Your Library</h1>
                 </div>
                 <div className='flex gap-1 max-[698px]:hidden'>
                     <span className='text-gray-400 text-3xl hover:text-white duration-300 cursor-pointer max-[1189px]:text-2xl'><GoPlus/></span>

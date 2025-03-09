@@ -33,19 +33,19 @@ const Burger = ({bool, open}) => {
         </div>
       </div>
       <div className='flex flex-col gap-2'>
-        <div className='flex gap-1 mb-3 items-center'>
+        <div className='flex gap-1 items-center hover:bg-neutral-800 py-2 rounded-lg'>
             <div className='text-3xl text-white'>
                 <AiOutlineThunderbolt/>
             </div>
             <h1 className='text-white font-semibold'>Whats new</h1>
         </div>
-        <div className='flex gap-1 items-center mb-3'>
+        <div className='flex gap-1 items-center hover:bg-neutral-800 py-2 rounded-lg'>
             <div className='text-3xl text-white'>
                 <IoMdTimer/>
             </div>
             <h1 className='text-white font-semibold'>History</h1>
         </div>
-        <div className='flex gap-1 items-center'>
+        <div className='flex gap-1 items-center hover:bg-neutral-800 py-2 rounded-lg'>
             <div className='text-3xl text-white'>
                 <IoSettingsSharp/>
             </div>

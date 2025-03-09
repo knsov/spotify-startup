@@ -7,6 +7,7 @@ import { CiSearch } from "react-icons/ci";
 import { TfiMenuAlt } from "react-icons/tfi";
 import Music_list from './Music_list';
 import { IoMdTimer } from "react-icons/io";
+import Musicbar from './Musicbar';
 
 
 
@@ -15,8 +16,9 @@ import { IoMdTimer } from "react-icons/io";
 
 const Music = () => {
   return (
-    <div className=' w-[80vw] bg-gradient-to-b from-neutral-700 via-neutral-900 to-neutral-900 rounded-lg max-[1023px]:w-[98vw] px-6 py-2'>
-      <div className='flex pt-4 items-center gap-2 mb-9'>
+    <>
+    <div className=' w-[58vw] bg-gradient-to-b from-neutral-700 via-neutral-900 to-neutral-900 rounded-lg max-[1023px]:w-[98vw] px-6 py-2'>
+      <div className='flex pt-4 items-center gap-2 mb-4'>
         <img className='h-[280px] rounded-lg max-[605px]:h-[200px] max-[499px]:h-[170px]' src={img1} />
         <div className='flex flex-col text-white font-semibold gap-5 max-[605px]:gap-2'>
             <h1 className='text-[15px] font-normal max-[499px]:text-[13px]'>Public Playlist</h1>
@@ -24,7 +26,7 @@ const Music = () => {
             <h1 className='text-[15px] text-neutral-400 max-[499px]:text-[13px]'> <span className='text-white font-bold'>User</span> 11songs, 38min 33sec</h1>
         </div>
       </div>
-      <div className='flex gap-6 justify-between items-center max-[605px]:mb-7'>
+      <div className='flex gap-6 justify-between items-center max-[605px]:mb-7 py-4 max-[605px]:border-b-1 border-neutral-600'>
         <div className='flex items-center gap-6'>
         <div className='bg-green-500 rounded-4xl text-2xl px-4 py-4 cursor-pointer duration-100 hover:scale-105 active:bg-green-600 max-[500px]:text-xl'>
             <TbPlayerPlayFilled/>
@@ -74,6 +76,7 @@ const Music = () => {
       <Music_list/>
       <Music_list/>
     </div>
+    </>
   )
 }
 

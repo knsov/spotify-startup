@@ -7,6 +7,7 @@ import { TfiMenuAlt } from "react-icons/tfi";
 import Banner from './Banner';
 import Music from './Music';
 import { NavLink, Outlet } from 'react-router-dom';
+import Musicbar from './Musicbar';
 
 
 
@@ -82,6 +83,7 @@ const Sidebar = () => {
       <div>
         <Outlet/>
       </div>
+      <Musicbar/>
     </div>
   )
 }

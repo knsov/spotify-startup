@@ -1,0 +1,68 @@
+[
+    {
+        "title": "XXXTENTACION",
+        "made": "An1ksyy",
+        "song_amount": 6,
+        "thumbnail": "https://i.pinimg.com/736x/08/93/62/089362bbb88ab405e5e0258ae77356d3.jpg",
+        "topic": "topic 1",
+        "listeners": "aldiar, an1ksyy",
+        "artist_bio": "R.I.P",
+        "credits": "no one",
+        "id": "1"
+      },
+      {
+        "title": "adore",
+        "made": "Aldi",
+        "song_amount": 54,
+        "thumbnail": "https://images.genius.com/f157ad724130c14d216eb26bff781b3a.600x600x1.jpg",
+        "topic": "topic 2",
+        "listeners": "aldiar, an1ksyy",
+        "artist_bio": "idk",
+        "credits": "Begzod loli",
+        "id": "2"
+      },
+      {
+        "title": "Playboi Carti",
+        "made": "aldi",
+        "song_amount": 45,
+        "thumbnail": "https://tophit.com/_next/image?url=https%3A%2F%2Ff.tophit.com%2Fget.php%3Fw%3D1080%26h%3D1080%26id%3D5582&w=256&q=75",
+        "topic": "topic 3",
+        "listeners": "aldiar, an1ksyy",
+        "artist_bio": "negroman",
+        "credits": "Amir Timur",
+        "id": "3"
+      },
+      {
+        "title": "Juice WRLD",
+        "made": "aldi",
+        "song_amount": 9,
+        "thumbnail": "https://i.guim.co.uk/img/media/cd59a408307ade77175cbef95d736687c971baf6/0_1869_5792_3473/master/5792.jpg?width=620&dpr=1&s=none&crop=none",
+        "topic": "topic 4",
+        "listeners": "aldiar, an1ksyy",
+        "artist_bio": "negroman2",
+        "credits": "Toktamish",
+        "id": "4"
+      },
+      {
+        "title": "Tame Impala",
+        "made": "aldi",
+        "song_amount": 92,
+        "thumbnail": "https://images.genius.com/ca5b2745de88ffd65f9e5af0420c5392.910x910x1.jpg",
+        "topic": "topic 5",
+        "listeners": "aldiar, an1ksyy",
+        "artist_bio": "great musics",
+        "credits": "Chingizhan",
+        "id": "5"
+      },
+      {
+        "title": "Crystal Castles",
+        "made": "aldi",
+        "song_amount": 42,
+        "thumbnail": "https://lastfm.freetls.fastly.net/i/u/ar0/7096b4c2d2d9cc84bd3d919c552ca47d.jpg",
+        "topic": "topic 6",
+        "listeners": "listeners 6",
+        "artist_bio": "artist_bio 6",
+        "credits": "credits 6",
+        "id": "6"
+      }
+    ]

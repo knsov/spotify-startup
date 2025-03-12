@@ -24,7 +24,7 @@ const Routers = () => {
                                 element: <Banner/>
                             },
                             {
-                                path: "/playlist",
+                                path: "/playlist/:id",
                                 element: <Playlist/>
                             },
                         ]

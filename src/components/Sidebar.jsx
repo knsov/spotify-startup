@@ -2,10 +2,6 @@ import React from 'react'
 import { SlLayers } from "react-icons/sl";
 import { GoPlus } from "react-icons/go";
 import { IoIosArrowRoundForward } from "react-icons/io";
-import { IoSearch } from "react-icons/io5";
-import { TfiMenuAlt } from "react-icons/tfi";
-import Banner from './Banner';
-import Music from './Music';
 import { NavLink, Outlet } from 'react-router-dom';
 import Musicbar from './Musicbar';
 
@@ -15,9 +11,10 @@ import Musicbar from './Musicbar';
 
 
 const Sidebar = () => {
+    
   return (
-    <div className='p-2 flex gap-2'>
-      <div className='h-[93vh] bg-neutral-900 w-[20%] rounded-lg sticky top-[55px] max-[1023px]:hidden'>
+    <div className='p-2 grid grid-cols-[20%_80%] max-[1055px]:grid-cols-[20%_80%] gap-2'>
+      <div className='h-[93vh] bg-neutral-900 w-full rounded-lg sticky top-[55px] max-[1023px]:hidden'>
         <div className='flex flex-col px-2 py-2'>
             <div className='flex justify-between'>
                 <div className='flex gap-3 items-center max-[1189px]:gap-2 max-[698px]:hidden group'>
@@ -83,7 +80,9 @@ const Sidebar = () => {
       <div>
         <Outlet/>
       </div>
-      <Musicbar/>
+      {/* <div className='max-[1055px]:hidden'>
+        <Musicbar/>
+      </div> */}
     </div>
   )
 }

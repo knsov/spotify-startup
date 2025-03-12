@@ -12,7 +12,7 @@ import img2 from '../assets/i.jpg'
 
 const Musicbar = () => {
   return (
-    <div className='h-screen bg-neutral-900 w-[20%] rounded-lg sticky top-[55px] px-3 py-3'>
+    <div className='h-screen bg-neutral-900 w-full rounded-lg sticky top-[55px] px-3 py-3'>
         <div className='flex justify-between text-white items-center mb-4'>
             <h1 className='font-semibold text-xl'>Playlist</h1>
             <div className='flex gap-1 text-3xl text-neutral-500 items-center cursor-pointer'>

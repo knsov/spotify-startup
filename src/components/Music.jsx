@@ -21,15 +21,15 @@ import Loader from './Loader';
 const Music = () => {
   const {id} = useParams()
   
-  const {data, isLoading} = useQuery({
-    queryKey: ['detail'],
+  const {data, isPending} = useQuery({
+    queryKey: [id],
     queryFn: ()=>{
       return axios.get(`https://676de1f5df5d7dac1cc940e9.mockapi.io/spotify/${id}`).then(res => res.data)
     }
   })
   console.log(data);
   
-  if(isLoading){
+  if(isPending){
     return <Loader/>
   }
 

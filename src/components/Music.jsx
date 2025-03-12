@@ -37,7 +37,7 @@ const Music = () => {
     <>
     <div className=' w-full bg-gradient-to-b from-neutral-700 via-neutral-900 to-neutral-900 rounded-lg max-[1023px]:w-[98vw] px-6 py-2'>
       <div className='flex pt-4 items-center gap-2 mb-4'>
-        <img className='h-[280px] rounded-lg max-[605px]:h-[200px] max-[499px]:h-[170px]' src={data?.thumbnail} />
+        <img className='h-[280px] w-[280px] object-cover rounded-lg max-[605px]:h-[200px] max-[605px]:w-[200px] max-[499px]:h-[170px] max-[499px]:w-[170px]' src={data?.thumbnail} />
         <div className='flex flex-col text-white font-semibold gap-5 max-[605px]:gap-2'>
             <h1 className='text-[15px] font-normal max-[499px]:text-[13px]'>Public Playlist</h1>
             <h1 className='text-7xl font-bold leading-14 max-[605px]:text-3xl max-[499px]:text-2xl max-[403px]:text-base max-[499px]:leading-10 max-[1242px]:text-4xl'>{data?.title}</h1>

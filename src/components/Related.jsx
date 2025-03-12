@@ -18,13 +18,13 @@ const Related = () => {
     }
   return (
     <div>
-      <div className="grid grid-cols-3 gap-3 px-6 mt-3 max-[889px]:grid-cols-2">
+      <div className="grid grid-cols-3 gap-3 max-[500px]:px-1 px-6 mt-3 max-[889px]:grid-cols-2">
         {data?.map((item)=>(
              <NavLink to={`playlist/${item.id}`} key={item.id}>
              <div className='bg-neutral-700  rounded-lg flex justify-between items-center group gap-3 hover:bg-neutral-600 duration-300 cursor-pointer'>
-                 <div className='flex items-center gap-3'>
-                     <img className='h-17 rounded-lg' src={item.thumbnail}/>
-                     <h1 className='text-white font-semibold'>{item.title}</h1>
+                 <div className='flex items-center gap-3 max-[386px]:gap-1'>
+                     <img className='h-17 rounded-lg w-[68px] object-cover' src={item.thumbnail}/>
+                     <h1 className='text-white font-semibold max-[493px]:text-[12px] max-[423px]:text-[10px] max-[423px]:font-[400] max-[386px]:text-[9px] max-[320px]:text-[7px]'>{item.title}</h1>
                  </div>
                  <div className='bg-green-500 text-2xl rounded-4xl px-4 py-4 mr-2 opacity-0 group-hover:opacity-80 duration-200 max-[889px]:hidden'>
                      <TbPlayerPlayFilled/>
